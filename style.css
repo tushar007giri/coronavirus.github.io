@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topnav {
+    background-color:#A9A9A9;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+  }
+  p{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  form{
+    width:400px;
+    margin:0 auto;
+   
+  }
+  .d2{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(223,223,228,1) 57%, rgba(70,85,88,1) 100%);
+  }
+  .btn1 {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background: white;
+    border: 1px solid;
+    color: black
+}
+.bdy {
+  background: rgb(216, 224, 224);
+}
+
+.row1 {
+  background: white;
+}
+.footer{
+background: #303036;
+color:white;
+height:400px;
+position: relative;
+}
+.footer .footer-bottom{
+  background: #343a40;
+  color: white;
+height: 50px;
+text-align: center;
+width: 100%;
+position: absolute;
+bottom: 0%;
+left: 0px;
+}
+.footer .footer-content{
+  height: 350px;
+
+}
